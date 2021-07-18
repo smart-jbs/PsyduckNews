@@ -38,6 +38,12 @@
       <artifactId>spring-jdbc</artifactId>
       <version>4.3.7.RELEASE</version>
     </dependency>
+<!--    Spring-test-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>4.3.7.RELEASE</version>
+    </dependency>
 <!--    Spring AOP-->
     <dependency>
       <groupId>org.springframework</groupId>

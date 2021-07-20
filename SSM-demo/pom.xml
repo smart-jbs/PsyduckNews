@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sensen.bms</groupId>
-  <artifactId>news-bms</artifactId>
+  <artifactId>SSM-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>news-bms Maven Webapp</name>
+  <name>SSM-demo Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -126,7 +126,7 @@
         </dependencies>
       </plugin>
     </plugins>
-    <finalName>news-bms</finalName>
+    <finalName>SSM-demo</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

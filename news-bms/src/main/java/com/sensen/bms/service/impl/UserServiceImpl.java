@@ -1,4 +1,4 @@
-package com.sensen.bms.controller.impl;
+package com.sensen.bms.service.impl;
 
 import com.sensen.bms.bean.User;
 import com.sensen.bms.dao.UserMapper;

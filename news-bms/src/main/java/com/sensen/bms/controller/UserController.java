@@ -57,4 +57,6 @@ public class UserController {
         PageInfo pageInfo = new PageInfo(users, 5);
         return Msg.success().add("pageInfo",pageInfo);
     }
+
+
 }

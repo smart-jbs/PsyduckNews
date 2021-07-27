@@ -1,8 +1,11 @@
 package com.sensen.bms.bean;
 
+import javax.validation.constraints.Pattern;
+
 public class User {
     private Integer uid;
 
+    @Pattern(regexp = "(^[a-zA-Z0-9_-]{6,16}$)|(^[\u2E80-\u9FFF]{2,5})",message = "用户名必须是6-16位数字和字母的组合或者2-5位中文")
     private String userName;
 
     private String userPwd;
